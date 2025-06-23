@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Project1.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Project1.Application": "1.0.0",
+          "Project1.Domain": "1.0.0",
+          "Project1.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Project1.Infrastructure.dll": {}
+        }
+      },
+      "Project1.Application/1.0.0": {
+        "dependencies": {
+          "Project1.Domain": "1.0.0",
+          "Project1.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Project1.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Project1.Domain/1.0.0": {
+        "dependencies": {
+          "Project1.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Project1.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Project1.Shared/1.0.0": {
+        "runtime": {
+          "Project1.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project1.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project1.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project1.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Project1.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

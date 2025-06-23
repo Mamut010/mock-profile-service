@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "Project1.Presentation.Controllers.ProfileController",
+    "Method": "GetAllProfiles",
+    "RelativePath": "api/profiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project1.Presentation.Controllers.ProfileController",
+    "Method": "GetCurrentUserProfile",
+    "RelativePath": "api/profiles/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

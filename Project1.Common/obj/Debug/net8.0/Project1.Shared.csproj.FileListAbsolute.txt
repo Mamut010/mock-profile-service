@@ -1,0 +1,11 @@
+D:\Work\Projects\.NET\Project1\Project1.Common\bin\Debug\net8.0\Project1.Shared.deps.json
+D:\Work\Projects\.NET\Project1\Project1.Common\bin\Debug\net8.0\Project1.Shared.dll
+D:\Work\Projects\.NET\Project1\Project1.Common\bin\Debug\net8.0\Project1.Shared.pdb
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\Project1.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\Project1.Shared.AssemblyInfoInputs.cache
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\Project1.Shared.AssemblyInfo.cs
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\Project1.Shared.csproj.CoreCompileInputs.cache
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\Project1.Shared.dll
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\refint\Project1.Shared.dll
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\Project1.Shared.pdb
+D:\Work\Projects\.NET\Project1\Project1.Common\obj\Debug\net8.0\ref\Project1.Shared.dll

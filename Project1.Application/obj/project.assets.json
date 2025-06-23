@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Project1.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Project1.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Project1.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project1.Domain.dll": {}
+        }
+      },
+      "Project1.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Project1.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project1.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project1.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Project1.Domain/Project1.Domain.csproj",
+      "msbuildProject": "../Project1.Domain/Project1.Domain.csproj"
+    },
+    "Project1.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Project1.Common/Project1.Shared.csproj",
+      "msbuildProject": "../Project1.Common/Project1.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Project1.Domain >= 1.0.0",
+      "Project1.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Application\\Project1.Application.csproj",
+      "projectName": "Project1.Application",
+      "projectPath": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Application\\Project1.Application.csproj",
+      "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Work\\Projects\\.NET\\Project1\\Project1.Common\\Project1.Shared.csproj": {
+              "projectPath": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Common\\Project1.Shared.csproj"
+            },
+            "D:\\Work\\Projects\\.NET\\Project1\\Project1.Domain\\Project1.Domain.csproj": {
+              "projectPath": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Domain\\Project1.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
