@@ -7,6 +7,7 @@ namespace Project1.Infrastructure.Persistence.Repos
     {
         private static readonly Dictionary<int, UserModel> _users = new()
         {
+            // In practice, you would not hard-code user data like this. Moreoever, passwords should be hashed and not stored in plain text.
             {
                 1,
                 new UserModel() { Id = 1, Name = "user1", DisplayedName = "User 1", Username = "username1", Password = "password1", Email = "user1@example.com" }

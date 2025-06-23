@@ -12,7 +12,7 @@ namespace Project1.Infrastructure.Domain.Repos
         public async Task<IEnumerable<User>> GetAll()
         {
             var models = await _modelRepo.GetAll();
-            return models.Select((model) => MapModelToEntity(model));
+            return models.Select(MapModelToEntity);
         }
 
         public async Task<User?> GetById(int id)
@@ -28,8 +28,6 @@ namespace Project1.Infrastructure.Domain.Repos
                 Id = model.Id,
                 Name = model.Name,
                 DisplayedName = model.DisplayedName,
-                Username = model.Username,
-                Password = model.Password,
                 Email = model.Email,
             };
         }

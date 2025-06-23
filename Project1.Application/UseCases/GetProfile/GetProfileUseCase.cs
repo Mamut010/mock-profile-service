@@ -21,7 +21,6 @@ namespace Project1.Application.UseCases.GetProfile
                 user.Id,
                 user.Name,
                 user.DisplayedName,
-                user.Username,
                 user.Email
             );
             return new GetProfileResult(profile);

@@ -15,7 +15,6 @@ namespace Project1.Application.UseCases.GetAllProfiles
                 user.Id,
                 user.Name,
                 user.DisplayedName,
-                user.Username,
                 user.Email
             ));
             return new GetAllProfilesResult(profiles);
