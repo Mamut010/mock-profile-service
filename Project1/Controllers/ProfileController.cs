@@ -8,7 +8,6 @@ namespace Project1.Presentation.Controllers
 {
     [Route("api/profiles")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = Shared.Constants.Auth.DefaultScheme)]
     public class ProfileController(
         ICurrentUser currentUser,
         GetProfileUseCase getProfileUseCase,
@@ -42,7 +41,8 @@ namespace Project1.Presentation.Controllers
 
             var query = new GetProfileQuery((int)_currentUser.UserId);
             var result = await _getProfileUseCase.ExecuteAsync(query);
-            return Ok(result.Profile);
+            var profile = result.Profile;
+            return profile is not null ? Ok(profile) : NotFound();
         }
     }
 }

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Work\\Projects\\.NET\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\auth\\handlers\\tokenauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\auth\\handlers\\tokenauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TokenAuthenticationHandler.cs",
               "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
               "RelativeDocumentMoniker": "Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
               "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
               "RelativeToolTip": "Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:40:03.687Z",
+              "WhenOpened": "2025-06-24T12:24:43.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Project1\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Project1\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T12:18:00.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Program.cs",
               "RelativeDocumentMoniker": "Project1\\Program.cs",
               "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Program.cs",
               "RelativeToolTip": "Project1\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAA+wCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwEoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:34:36.767Z",
+              "WhenOpened": "2025-06-24T12:14:33.324Z",
               "EditorCaption": ""
             }
           ]

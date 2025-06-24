@@ -11,17 +11,19 @@ namespace Project1.Presentation.Auth.Handlers
         UrlEncoder encoder
         ) : AuthenticationHandler<AuthenticationSchemeOptions>(options, logger, encoder)
     {
+        private const string prefix = "My token ";
+
         protected async override Task<AuthenticateResult> HandleAuthenticateAsync()
         {
             var authHeader = Request.Headers.Authorization.FirstOrDefault();
-            var tokenPrefix = "Bearer ";
+            var schemePrefix = "Bearer ";
 
-            if (string.IsNullOrWhiteSpace(authHeader) || !authHeader.StartsWith(tokenPrefix))
+            if (string.IsNullOrWhiteSpace(authHeader) || !authHeader.StartsWith(schemePrefix))
             {
                 return AuthenticateResult.NoResult();
             }
 
-            var token = authHeader[tokenPrefix.Length..].Trim();
+            var token = authHeader[schemePrefix.Length..].Trim();
             if (!await IsValidToken(token))
             {
                 return AuthenticateResult.Fail("Invalid token");
@@ -38,13 +40,11 @@ namespace Project1.Presentation.Auth.Handlers
         private static Task<bool> IsValidToken(string token)
         {
             // In practice, you would validate the token against a database or an external service.
-            var validTokens = new List<string>() { "My token 1", "My token 2", "My token 3" };
-            return Task.FromResult(validTokens.Contains(token));
+            return Task.FromResult(token.StartsWith(prefix));
         }
 
         private static Task<IEnumerable<Claim>> ExtractClaimsFromToken(string token)
         {
-            var prefix = "My token ";
             var sub = token[prefix.Length..].Trim();
             var claims = new[]
             {

@@ -15,3 +15,4 @@ D:\Work\Projects\.NET\Project1\Project1.Application\obj\Debug\net8.0\Project1.Ap
 D:\Work\Projects\.NET\Project1\Project1.Application\obj\Debug\net8.0\refint\Project1.Application.dll
 D:\Work\Projects\.NET\Project1\Project1.Application\obj\Debug\net8.0\Project1.Application.pdb
 D:\Work\Projects\.NET\Project1\Project1.Application\obj\Debug\net8.0\ref\Project1.Application.dll
+D:\Work\Projects\.NET\Project1\Project1.Application\obj\Debug\net8.0\Project1.Application.sourcelink.json

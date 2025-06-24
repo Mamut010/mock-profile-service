@@ -41,3 +41,4 @@ D:\Work\Projects\.NET\Project1\Project1\obj\Debug\net8.0\refint\Project1.Present
 D:\Work\Projects\.NET\Project1\Project1\obj\Debug\net8.0\Project1.Presentation.pdb
 D:\Work\Projects\.NET\Project1\Project1\obj\Debug\net8.0\Project1.Presentation.genruntimeconfig.cache
 D:\Work\Projects\.NET\Project1\Project1\obj\Debug\net8.0\ref\Project1.Presentation.dll
+D:\Work\Projects\.NET\Project1\Project1\obj\Debug\net8.0\Project1.Presentation.sourcelink.json

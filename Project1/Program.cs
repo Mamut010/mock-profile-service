@@ -9,6 +9,8 @@ using Project1.Infrastructure.Persistence.Repos;
 using Project1.Infrastructure.Persistence.Contracts;
 using Project1.Infrastructure.Domain.Repos;
 using Project1.Application.UseCases.GetAllProfiles;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,12 +22,17 @@ SetupApp(app);
 
 app.Run();
 
-// Add services to the container.
 static void registerDi(IServiceCollection services)
 {
-    services.AddControllers();
+    services.AddControllers((options) =>
+    {
+        var policy = new AuthorizationPolicyBuilder()
+            .RequireAuthenticatedUser()
+            .Build();
+        options.Filters.Add(new AuthorizeFilter(policy));
+    });
     services.AddEndpointsApiExplorer();
-    services.AddSwaggerGen();
+    services.AddSwaggerGen(SetupSwaggerOptions);
 
     services.AddAuthentication(Auth.DefaultScheme)
         .AddScheme<AuthenticationSchemeOptions, TokenAuthenticationHandler>(Auth.DefaultScheme, (options) => { });
@@ -39,6 +46,41 @@ static void registerDi(IServiceCollection services)
     services.AddScoped<GetAllProfilesUseCase>();
     services.AddScoped<IUserRepo, UserRepo>();
     services.AddScoped<IUserModelRepo, InMemoryUserModelRepo>();
+}
+
+static void SetupSwaggerOptions(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions options)
+{
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Mock Profile API Service",
+        Version = "v1"
+    });
+
+    // Define custom auth scheme
+    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Description = "Enter token in this format: Bearer {token}",
+        Name = "Authorization",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+        Scheme = Auth.DefaultScheme,
+    });
+
+    // Apply security globally to all endpoints
+    options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
 }
 
 static void SetupApp(WebApplication app)
