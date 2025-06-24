@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Work\\Projects\\.NET\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\auth\\handlers\\tokenauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\auth\\handlers\\tokenauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7976BFA-7CB0-40BF-8CA1-72B247DD7E92}|Project1.Infrastructure\\Project1.Infrastructure.csproj|d:\\work\\projects\\.net\\project1\\project1.infrastructure\\domain\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7976BFA-7CB0-40BF-8CA1-72B247DD7E92}|Project1.Infrastructure\\Project1.Infrastructure.csproj|solutionrelative:project1.infrastructure\\domain\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA733575-EA0D-40E9-A268-10C06570E276}|Project1.Domain\\Project1.Domain.csproj|d:\\work\\projects\\.net\\project1\\project1.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA733575-EA0D-40E9-A268-10C06570E276}|Project1.Domain\\Project1.Domain.csproj|solutionrelative:project1.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7976BFA-7CB0-40BF-8CA1-72B247DD7E92}|Project1.Infrastructure\\Project1.Infrastructure.csproj|d:\\work\\projects\\.net\\project1\\project1.infrastructure\\persistence\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7976BFA-7CB0-40BF-8CA1-72B247DD7E92}|Project1.Infrastructure\\Project1.Infrastructure.csproj|solutionrelative:project1.infrastructure\\persistence\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48795287-6970-4EED-B7C3-9B035659870C}|Project1.Application\\Project1.Application.csproj|d:\\work\\projects\\.net\\project1\\project1.application\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48795287-6970-4EED-B7C3-9B035659870C}|Project1.Application\\Project1.Application.csproj|solutionrelative:project1.application\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,40 +43,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TokenAuthenticationHandler.cs",
-              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
-              "RelativeDocumentMoniker": "Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
-              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
-              "RelativeToolTip": "Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAABjAAAAAAAAAA==",
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Infrastructure\\Domain\\Repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "Project1.Infrastructure\\Domain\\Repos\\UserRepo.cs",
+              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Infrastructure\\Domain\\Repos\\UserRepo.cs",
+              "RelativeToolTip": "Project1.Infrastructure\\Domain\\Repos\\UserRepo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T12:24:43.991Z",
+              "WhenOpened": "2025-06-24T15:27:17.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Project1\\Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Project1\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwCUAAAANAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Project1.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Project1.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T12:18:00.953Z",
+              "WhenOpened": "2025-06-24T15:26:54.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Application\\Dtos\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "Project1.Application\\Dtos\\UserProfileDto.cs",
+              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Application\\Dtos\\UserProfileDto.cs",
+              "RelativeToolTip": "Project1.Application\\Dtos\\UserProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T14:26:04.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Program.cs",
-              "RelativeDocumentMoniker": "Project1\\Program.cs",
-              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Program.cs",
-              "RelativeToolTip": "Project1\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwEoAAABJAAAAAAAAAA==",
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Infrastructure\\Persistence\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Project1.Infrastructure\\Persistence\\Models\\UserModel.cs",
+              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Infrastructure\\Persistence\\Models\\UserModel.cs",
+              "RelativeToolTip": "Project1.Infrastructure\\Persistence\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T12:14:33.324Z",
+              "WhenOpened": "2025-06-24T12:37:19.994Z",
               "EditorCaption": ""
             }
           ]

@@ -10,15 +10,15 @@ namespace Project1.Infrastructure.Persistence.Repos
             // In practice, you would not hard-code user data like this. Moreoever, passwords should be hashed and not stored in plain text.
             {
                 1,
-                new UserModel() { Id = 1, Name = "user1", DisplayedName = "User 1", Username = "username1", Password = "password1", Email = "user1@example.com" }
+                new UserModel() { Id = 1, Name = "user1", DisplayedName = "User 1", Email = "user1@example.com" }
             },
             {
                 2,
-                new UserModel() { Id = 2, Name = "user2", Username = "username2", Password = "password2", Email = "user2@example.com" }
+                new UserModel() { Id = 2, Name = "user2", Email = "user2@example.com" }
             },
             {
                 3,
-                new UserModel() { Id = 3, Name = "user3", DisplayedName = "User 3", Username = "username3", Password = "password3" }
+                new UserModel() { Id = 3, Name = "user3", DisplayedName = "User 3" }
             }
         };
 
