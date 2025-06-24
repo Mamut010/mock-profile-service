@@ -12,11 +12,11 @@ namespace Project1.Presentation.Auth.Handlers
         ) : AuthenticationHandler<AuthenticationSchemeOptions>(options, logger, encoder)
     {
         private const string prefix = "My token ";
+        private const string schemePrefix = "Bearer ";
 
         protected async override Task<AuthenticateResult> HandleAuthenticateAsync()
         {
             var authHeader = Request.Headers.Authorization.FirstOrDefault();
-            var schemePrefix = "Bearer ";
 
             if (string.IsNullOrWhiteSpace(authHeader) || !authHeader.StartsWith(schemePrefix))
             {

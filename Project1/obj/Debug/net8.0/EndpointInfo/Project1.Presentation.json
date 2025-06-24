@@ -32,7 +32,7 @@
   },
   "components": {
     "securitySchemes": {
-      "Bearer": {
+      "Bear": {
         "type": "apiKey",
         "description": "Enter token in this format: Bearer {token}",
         "name": "Authorization",
@@ -42,7 +42,7 @@
   },
   "security": [
     {
-      "Bearer": [ ]
+      "Bear": [ ]
     }
   ]
 }

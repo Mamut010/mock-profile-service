@@ -56,8 +56,9 @@ static void SetupSwaggerOptions(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOpti
         Version = "v1"
     });
 
+    var schemaId = "Bearer";
     // Define custom auth scheme
-    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    options.AddSecurityDefinition(schemaId, new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
         Description = "Enter token in this format: Bearer {token}",
         Name = "Authorization",
@@ -75,7 +76,7 @@ static void SetupSwaggerOptions(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOpti
                 Reference = new Microsoft.OpenApi.Models.OpenApiReference
                 {
                     Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
-                    Id = "Bearer"
+                    Id = schemaId
                 }
             },
             Array.Empty<string>()

@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Project1.Application.Contracts;
 using Project1.Application.UseCases.GetAllProfiles;
 using Project1.Application.UseCases.GetProfile;
