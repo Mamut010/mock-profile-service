@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Work\\Projects\\.NET\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|d:\\work\\projects\\.net\\project1\\project1\\auth\\handlers\\tokenauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D10A7E5-A1C8-4392-8729-4DA10A893F89}|Project1\\Project1.Presentation.csproj|solutionrelative:project1\\auth\\handlers\\tokenauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7976BFA-7CB0-40BF-8CA1-72B247DD7E92}|Project1.Infrastructure\\Project1.Infrastructure.csproj|d:\\work\\projects\\.net\\project1\\project1.infrastructure\\domain\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7976BFA-7CB0-40BF-8CA1-72B247DD7E92}|Project1.Infrastructure\\Project1.Infrastructure.csproj|solutionrelative:project1.infrastructure\\domain\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Project1\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Project1\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:50:02.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenAuthenticationHandler.cs",
+              "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
+              "RelativeDocumentMoniker": "Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
+              "ToolTip": "D:\\Work\\Projects\\.NET\\Project1\\Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
+              "RelativeToolTip": "Project1\\Auth\\Handlers\\TokenAuthenticationHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:40:04.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Infrastructure\\Domain\\Repos\\UserRepo.cs",
               "RelativeDocumentMoniker": "Project1.Infrastructure\\Domain\\Repos\\UserRepo.cs",
@@ -55,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Project1.Domain\\Entities\\User.cs",
@@ -63,12 +97,11 @@
               "RelativeToolTip": "Project1.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T15:26:54.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T15:26:54.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UserProfileDto.cs",
               "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Application\\Dtos\\UserProfileDto.cs",
               "RelativeDocumentMoniker": "Project1.Application\\Dtos\\UserProfileDto.cs",
@@ -76,12 +109,11 @@
               "RelativeToolTip": "Project1.Application\\Dtos\\UserProfileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T14:26:04.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T14:26:04.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserModel.cs",
               "DocumentMoniker": "D:\\Work\\Projects\\.NET\\Project1\\Project1.Infrastructure\\Persistence\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Project1.Infrastructure\\Persistence\\Models\\UserModel.cs",
@@ -89,8 +121,7 @@
               "RelativeToolTip": "Project1.Infrastructure\\Persistence\\Models\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T12:37:19.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T12:37:19.994Z"
             }
           ]
         }

@@ -21,11 +21,6 @@ namespace Project1.Presentation.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllProfiles()
         {
-            if (!_currentUser.IsAuthenticated)
-            {
-                throw new UnauthorizedAccessException();
-            }
-
             var query = new GetAllProfilesQuery();
             var result = await _getAllProfilesUseCase.ExecuteAsync(query);
             return Ok(result.Profiles);
@@ -34,7 +29,7 @@ namespace Project1.Presentation.Controllers
         [HttpGet("current")]
         public async Task<IActionResult> GetCurrentUserProfile()
         {
-            if (!_currentUser.IsAuthenticated || _currentUser.UserId is null)
+            if (_currentUser.UserId is null)
             {
                 throw new UnauthorizedAccessException();
             }
